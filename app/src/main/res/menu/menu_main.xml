@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_informasi"
+        android:title="Informasi Aplikasi"/>
+    <item android:id="@+id/action_HubungiKami"
+        android:title="Hubungi Kami"/>
+    <item android:id="@+id/action_logout"
+        android:title="Keluar"/>
+    <item android:id="@+id/admin"
+        android:title="Sebagai Admin"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_person_black_24dp"/>
+
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginAdmin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="76dp"
+                android:layout_height="86dp"
+                android:background="@drawable/undraw_login"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Yuk, Admin Masuk"
+                android:textSize="18dp"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_marginBottom="-20dp"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="30dp"
+                android:gravity="center">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/usernameID">
+                    <EditText
+                        android:id="@+id/userNameAdmin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Username"
+                        android:textSize="16dp"
+                        android:inputType="textEmailAddress"
+                        android:textColor="#000"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/passwordID"
+                    app:passwordToggleEnabled="true"
+                    app:passwordToggleTint="@color/hijaubackground">
+                    <EditText
+                        android:id="@+id/passwordAdmin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:textSize="16dp"
+                        android:inputType="textPassword"
+                        android:textColor="#000"/>
+                </com.google.android.material.textfield.TextInputLayout>
+                <Button
+                    android:id="@+id/login_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="Masuk"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+                    android:background="@drawable/button"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "264983879035",
+    "firebase_url": "https://e-trashbag.firebaseio.com",
+    "project_id": "e-trashbag",
+    "storage_bucket": "e-trashbag.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264983879035:android:cbbddff99d4133005cb1de",
+        "android_client_info": {
+          "package_name": "com.rangai.e_trashbag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264983879035-t24dq5cto30566h8finau2qpnghvhd4o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rangai.e_trashbag",
+            "certificate_hash": "3aa53e67aa1db4daadee307f155a961f102ea849"
+          }
+        },
+        {
+          "client_id": "264983879035-f93ij4578p4a8a9ih7c3jqv4ibve7lpl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rangai.e_trashbag",
+            "certificate_hash": "d12b424ce03c223716c2918a964b5e6034686c9b"
+          }
+        },
+        {
+          "client_id": "264983879035-7bqqhm7ajen03ftf9b7o2lfrgt7sr7qo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAolulVZ1LbzG2bY6Nut8NOs8Hwi7_1xAk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264983879035-7bqqhm7ajen03ftf9b7o2lfrgt7sr7qo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

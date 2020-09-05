@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#fff"
+    app:contentPadding="5dp">
+    
+    <LinearLayout
+        android:id="@+id/linearHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/namaHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="18dp"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/typeHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type Order"
+            android:textColor="#000"/>
+        <TextView
+            android:id="@+id/tanggalHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tanggal transaksi"
+            android:textColor="#000"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
